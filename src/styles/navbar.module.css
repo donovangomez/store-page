@@ -1,0 +1,13 @@
+.navbar {
+  background-color: darkorchid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 35%;
+}

@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./Header";
 import Products from "./Products";
 import { useState, useEffect } from "react";
