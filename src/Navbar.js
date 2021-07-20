@@ -9,13 +9,13 @@ const Navbar = () => {
       </div>
       <ul className={styles.navItems}>
         <li>
-          <span>Mens</span>
+          <span className={styles.link}>Mens</span>
         </li>
         <li>
-          <span>Womens</span>
+          <span className={styles.link}>Womens</span>
         </li>
         <li>
-          <span>Jewlery</span>
+          <span className={styles.link}>Jewlery</span>
         </li>
       </ul>
     </nav>
