@@ -39,7 +39,7 @@ span {
   font-size: 1.55rem;
 }
 
-button {
+.productButton {
   border: 2px solid orchid;
   font-size: 1.25rem;
   padding: 0.55rem 2rem;

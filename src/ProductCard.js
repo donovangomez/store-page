@@ -11,7 +11,7 @@ const ProductCard = ({ title, price, description, imageUrl }) => {
         <h3>{title}</h3>
         <div className={styles.buttonContainer}>
           <span>{price}</span>
-          <button>Buy</button>
+          <button className={styles.productButton}>Buy</button>
         </div>
       </div>
     </div>
