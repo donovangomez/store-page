@@ -1,9 +1,9 @@
 .productContainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 2rem;
-  max-width: 88rem;
+  max-width: 75rem;
   margin: 0 auto;
   padding-bottom: 10rem;
 }
