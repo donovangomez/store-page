@@ -1,0 +1,39 @@
+.headerWrapper {
+  background-color: #fbaeb8;
+  color: #fff;
+  height: 80vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContentWrapper {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 4rem;
+}
+
+.headerText {
+  font-size: 3rem;
+}
+
+.headerImage {
+  height: auto;
+  width: 140%;
+}
+
+.headerButton {
+  background-color: #f88064;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.75rem 4rem;
+  border: none;
+  font-size: 1.45rem;
+}
