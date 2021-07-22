@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
-import photo from "./assets/laura-fashion.png";
-import styles from "./styles/header.module.css";
+import Navbar from "../components/Navbar";
+import photo from "../assets/laura-fashion.png";
+import styles from "../styles/header.module.css";
 
 const Header = () => {
   return (

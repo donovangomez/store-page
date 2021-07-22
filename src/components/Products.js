@@ -1,6 +1,6 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-import styles from "./styles/products.module.css";
+import styles from "../styles/products.module.css";
 
 const Products = ({ products, setProducts }) => {
   return (
