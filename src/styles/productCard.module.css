@@ -40,10 +40,16 @@ span {
 }
 
 .productButton {
-  border: 2px solid orchid;
+  border: 2px solid #e5989b;
   font-size: 1.25rem;
   padding: 0.55rem 2rem;
   background-color: transparent;
-  color: orchid;
+  color: #e5989b;
   cursor: pointer;
+  transition: background 0.2s ease-in;
+}
+
+.productButton:hover {
+  background-color: #e5989b;
+  color: #333;
 }

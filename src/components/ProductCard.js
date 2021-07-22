@@ -10,7 +10,7 @@ const ProductCard = ({ title, price, description, imageUrl }) => {
       <div className={styles.cardContent}>
         <h3>{title}</h3>
         <div className={styles.buttonContainer}>
-          <span>{price}</span>
+          <span>${price}</span>
           <button className={styles.productButton}>Buy</button>
         </div>
       </div>

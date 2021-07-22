@@ -1,5 +1,5 @@
 .headerWrapper {
-  background-color: #fbaeb8;
+  background-color: #e5989b;
   color: #fff;
   height: 80vh;
   margin: 0;
@@ -36,4 +36,21 @@
   padding: 0.75rem 4rem;
   border: none;
   font-size: 1.45rem;
+  transition: background 0.2s ease-in;
+}
+
+.headerButton:hover {
+  background-color: #f9947c;
+}
+
+/* media query */
+@media (max-width: 750px) {
+  .headerContentWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerImage {
+    display: none;
+  }
 }

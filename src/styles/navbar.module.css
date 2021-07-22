@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #fbaeb8;
+  background-color: #e5989b;
   height: 5vh;
   top: 0;
   width: 100%;
@@ -16,6 +16,15 @@
   width: 35%;
 }
 
+.logo {
+  font-size: 2rem;
+}
+
+li {
+  color: #fff;
+}
+
 .link {
   cursor: pointer;
+  font-size: 1.55rem;
 }
